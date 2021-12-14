@@ -1,28 +1,25 @@
 {
   "name": "@hippy/react-reconciler",
   "description": "Hippy React package for creating custom renderers",
-  "version": "0.21.0-beta",
+  "version": "0.21.0",
   "keywords": [
-    "react"
+    "react",
+    "hippy"
   ],
   "homepage": "http://hippyjs.org",
   "license": "MIT",
   "files": [
     "LICENSE",
     "README.md",
-    "build-info.json",
     "index.js",
+    "index.d.ts",
     "persistent.js",
     "reflection.js",
     "cjs/"
   ],
   "main": "index.js",
   "types": "index.d.ts",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Tencent/Hippy/tree/master/packages/hippy-react-reconciler-for-react16",
-    "directory": "packages/hippy-react-reconciler-for-react16"
-  },
+  "repository": "https://github.com/hippy-contrib/hippy-react-reconciler-for-react16.git",
   "engines": {
     "node": ">=0.10.0"
   },
